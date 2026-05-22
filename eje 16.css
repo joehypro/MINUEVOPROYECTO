@@ -1,0 +1,11 @@
+.tarjeta{
+  position: relative;
+  width: 300px;
+  height: 200px;
+}
+
+.etiqueta{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
