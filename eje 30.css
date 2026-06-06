@@ -1,0 +1,16 @@
+.fondo-decorativo {
+  background: linear-gradient(45deg, #ff007f, #7f00ff);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tarjeta-vidrio {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 40px;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}

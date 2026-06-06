@@ -1,0 +1,24 @@
+.elemento-tooltip {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.elemento-tooltip::before {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333333;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  white-space: nowrap;
+  display: none;
+}
+
+.elemento-tooltip:hover::before {
+  display: block;
+}

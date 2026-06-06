@@ -1,0 +1,21 @@
+:root {
+  --fondo-pagina: #ffffff;
+  --color-texto: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fondo-pagina: #121212;
+    --color-texto: #ffffff;
+  }
+}
+
+body {
+  background-color: var(--fondo-pagina);
+  color: var(--color-texto);
+}
+
+.caja-tema {
+  padding: 20px;
+  border: 2px solid var(--color-texto);
+}

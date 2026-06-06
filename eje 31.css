@@ -1,0 +1,26 @@
+.check-personalizado {
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #34495e;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+}
+
+.check-personalizado:checked {
+  background-color: #2ecc71;
+  border-color: #2ecc71;
+}
+
+.check-personalizado:checked::after {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: 9px;
+  width: 6px;
+  height: 12px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}

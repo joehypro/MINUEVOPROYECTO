@@ -1,0 +1,11 @@
+.galeria-masonry {
+  column-count: 3;
+  column-gap: 15px;
+}
+
+.item-bloque {
+  background-color: #bdc3c7;
+  margin-bottom: 15px;
+  break-inside: avoid;
+  height: 150px;
+}

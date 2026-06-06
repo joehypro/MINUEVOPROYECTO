@@ -1,0 +1,10 @@
+.contenedor-padre {
+  container-type: inline-size;
+  width: 100%;
+}
+
+@container (max-width: 400px) {
+  .componente-hijo {
+    background-color: #f1c40f;
+  }
+}

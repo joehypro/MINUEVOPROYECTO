@@ -1,0 +1,27 @@
+.layout{
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "nav aside"
+        "content aside"
+        "footer footer";
+    grid-template-columns: 3fr 1fr;
+    gap: 10px;
+}
+.cabecera {grid-area: header;}
+.navegacion {grid-area: nav;}
+.contenido {grid-area: content;}
+.barrita {grid-area: aside;}
+.pie {grid-area: footer;}
+
+@media (max-width: 768px) {
+    .layout {
+        grid-template-areas: 
+        "header"
+        "nav"
+        "content"
+        "aside"
+        "footer";
+        grid-template-columns: 1fr;
+    }
+}

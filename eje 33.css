@@ -1,0 +1,11 @@
+.seccion-lista {
+  counter-reset: mi-contador;
+}
+
+h2 {
+  counter-increment: mi-contador;
+}
+
+h2::before {
+  content: counters(mi-contador, ".") " ";
+}
