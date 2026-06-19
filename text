@@ -1,0 +1,269 @@
+¡Hola a todos! 🚀💻 Espero que estén listos para codear, porque aquí les traigo la nueva serie de ejercicios de Python 🐍. Esta vez nos vamos a enfocar fuertemente en dominar los *Bucles, Condicionales y Operadores* ⚙️🧠. ¡Vamos a darle! 🔥
+
+🟢 *NIVEL FÁCIL* 🟢
+
+*Ejercicio 1: Identificador de Paridad* 🔢
+_Enunciado:_ Crea un programa que pida un número entero y determine si es par o impar.
+_Requerimientos:_ Usa `input()`, el operador de módulo (`%`) y una estructura condicional `if-else`.
+
+*Ejercicio 2: Sumatoria Acumulativa* ➕
+_Enunciado:_ Calcula la suma de todos los números del 1 hasta un límite ingresado por el usuario.
+_Requerimientos:_ Usa un bucle `for`, la función `range()` y el operador de asignación `+=`.
+
+*Ejercicio 3: Filtrado de Positivos* ✅
+_Enunciado:_ De una lista mixta de números, extrae solo los estrictamente positivos a una nueva lista.
+_Requerimientos:_ Itera con un `for`, evalúa con un `if` y `>` y usa `.append()`.
+
+*Ejercicio 4: Contador de Vocales* 🅰️
+_Enunciado:_ Cuenta cuántas vocales tiene una frase ingresada por el usuario.
+_Requerimientos:_ Recorre el string con un `for`, usa un `if` con el operador `in` y mantén un contador.
+
+*Ejercicio 5: Adivina el Número* 🎯
+_Enunciado:_ El programa tiene un número secreto del 1 al 10. El usuario debe adivinarlo pidiendo intentos hasta lograrlo.
+_Requerimientos:_ Usa un bucle `while` controlado por el operador de diferencia `!=`.
+
+
+🟡 *NIVEL INTERMEDIO* 🟡
+
+*Ejercicio 6: Calculadora de Promedios* 📊
+_Enunciado:_ Desde un diccionario de `{Alumno: Nota}`, calcula el promedio general y cuántos aprobaron (>= 6.0).
+_Requerimientos:_ Usa un `for` sobre `.values()`, operadores aritméticos e `if` para conteo.
+
+*Ejercicio 7: Verificador de Primos* 🛡️
+_Enunciado:_ Escribe una función que determine si un número es primo o no.
+_Requerimientos:_ Crea una función, usa un bucle `for` y el operador de módulo `%` para buscar divisores.
+
+*Ejercicio 8: Intersección de Datos* 🪢
+_Enunciado:_ Encuentra los elementos comunes entre dos listas sin incluir duplicados.
+_Requerimientos:_ Convierte las listas a `set` y usa el operador de intersección `&`.
+
+*Ejercicio 9: Tablas de Multiplicar* ✖️
+_Enunciado:_ Muestra por consola las tablas de multiplicar del 1 al 5.
+_Requerimientos:_ Usa bucles `for` anidados y el operador de multiplicación `*`.
+
+*Ejercicio 10: Clasificación por Edades* 🧑‍🤝‍🧑
+_Enunciado:_ Procesa una lista de tuplas `(Nombre, Edad)` y clasifica en Menor, Adulto o Mayor.
+_Requerimientos:_ Desempaqueta la tupla en un `for` y usa una estructura múltiple `if-elif-else`.
+
+
+🔴 *NIVEL AVANZADO* 🔴
+
+*Ejercicio 11: Simulación Bancaria* 🏦
+_Enunciado:_ Crea una clase cuenta bancaria que permita depositar y retirar (impidiendo retirar más del saldo).
+_Requerimientos:_ Aplica POO básica, métodos, y condicionales lógicos (`<=`) para proteger el saldo.
+
+*Ejercicio 12: Desplazamiento de Bits* 👾
+_Enunciado:_ Multiplica un número por 2 y por 4 utilizando solo operadores a nivel de bits.
+_Requerimientos:_ Usa un bucle `for` y el operador bitwise de desplazamiento a la izquierda `<<`.
+
+*Ejercicio 13: Frecuencia de Palabras* 📖
+_Enunciado:_ Analiza un párrafo y cuenta cuántas veces se repite cada palabra (ignorando mayúsculas).
+_Requerimientos:_ Usa `.split()`, y un bucle `for` para llenar un diccionario usando condicionales o el operador `in`.
+
+*Ejercicio 14: Sucesión de Fibonacci* 🌀
+_Enunciado:_ Genera la serie de Fibonacci hasta N términos y guárdala en una lista.
+_Requerimientos:_ Usa un bucle `while` y la genial asignación múltiple de Python (`a, b = b, a + b`).
+
+*Ejercicio 15: Suma de Matrices* 🧮
+_Enunciado:_ Suma dos matrices 3x3 elemento por elemento y crea una matriz resultado.
+_Requerimientos:_ Emplea listas de listas, bucles `for` anidados e indexación doble `[i][j]`.
+
+¡No se rindan! 💪 La programación es pura práctica y lógica. Cualquier duda con el código, me avisan. ¡Mucho éxito compilando! 🏁✨
+
+¡Hola equipo! 🚀💻 Hoy vamos a entrenar nuestra lógica pura y dura. Les traigo 15 ejercicios de *JavaScript* orientados al core de la programación: *Bucles, Condicionales y Operadores* ⚙️🧠. 
+
+OJO ⚠️: Nada de HTML, nada de DOM. Todo esto se ejecuta directo en la terminal (Node.js) o en la consola del navegador con `console.log()`. ¡Vamos a darle! 🔥
+
+🟢 *NIVEL FÁCIL* 🟢
+
+*Ejercicio 1: Paridad de un Número* 🔢
+_Enunciado:_ Determina si un número guardado en una variable es par o impar e imprímelo.
+_Requerimientos:_ Usa una variable, el operador módulo `%` y una estructura `if-else`.
+
+*Ejercicio 2: Sumatoria Acumulativa* ➕
+_Enunciado:_ Calcula la suma de todos los números del 1 al 50.
+_Requerimientos:_ Declara un acumulador en 0, usa un bucle `for` y el operador `+=`.
+
+*Ejercicio 3: Traductor de Días* 📅
+_Enunciado:_ Dada una variable del 1 al 7, imprime el día de la semana correspondiente.
+_Requerimientos:_ Usa EXCLUSIVAMENTE un bloque `switch` con sus `case`, `break` y `default`.
+
+*Ejercicio 4: Cuenta Regresiva* 🚀
+_Enunciado:_ Haz un conteo desde 10 hasta 0 y al final imprime "¡Despegue!".
+_Requerimientos:_ Usa un bucle `while`, el operador `--` y un `if` final.
+
+*Ejercicio 5: Clasificador de Letras* 🅰️
+_Enunciado:_ Dada una letra, evalúa si es vocal o consonante.
+_Requerimientos:_ Usa `if-else` y operadores lógicos como `||` (OR), o un `switch` múltiple.
+
+
+🟡 *NIVEL INTERMEDIO* 🟡
+
+*Ejercicio 6: El Algoritmo FizzBuzz* 🐝
+_Enunciado:_ Imprime del 1 al 100. Múltiplos de 3 son "Fizz", de 5 son "Buzz", y de ambos "FizzBuzz".
+_Requerimientos:_ Usa `for`, `if - else if - else`, el operador `%` y el lógico `&&`.
+
+*Ejercicio 7: Calculadora Básica* 🧮
+_Enunciado:_ Con tres variables (num1, num2 y operador como texto "+", "-", "*", "/"), imprime el resultado matemático.
+_Requerimientos:_ Usa `switch` para evaluar el operador y un `if` para evitar dividir entre cero.
+
+*Ejercicio 8: Cálculo de Factorial* ❗
+_Enunciado:_ Calcula el factorial de un número (ej. 5! = 120).
+_Requerimientos:_ Inicia un resultado en 1, usa un `for` decreciente y el operador `*=`.
+
+*Ejercicio 9: Verificador de Primos* 🛡️
+_Enunciado:_ Determina si un número dado es primo.
+_Requerimientos:_ Usa una bandera booleana (`true`/`false`), un `for` hasta la mitad del número, el operador `%` y un `break`.
+
+*Ejercicio 10: Patrón Cuadrado* ⬛
+_Enunciado:_ Dibuja un cuadrado de 5x5 hecho de asteriscos `*` en la consola.
+_Requerimientos:_ Usa bucles `for` anidados y concatena strings por cada fila.
+
+
+🔴 *NIVEL AVANZADO* 🔴
+
+*Ejercicio 11: Sucesión de Fibonacci* 🌀
+_Enunciado:_ Imprime los primeros 15 términos de la sucesión de Fibonacci.
+_Requerimientos:_ Declara variables para los términos, usa un `for` y reasigna los valores sumándolos secuencialmente.
+
+*Ejercicio 12: Conjetura de Collatz* 📉
+_Enunciado:_ Dado un número, si es par se divide entre 2; si es impar se multiplica por 3 y suma 1. Repetir hasta llegar a 1.
+_Requerimientos:_ Usa `while (!= 1)`, `if-else` para la paridad y los operadores aritméticos.
+
+*Ejercicio 13: Número Perfecto* ✨
+_Enunciado:_ Verifica si un número (ej. 28) es igual a la suma de sus divisores.
+_Requerimientos:_ Usa un `for` para buscar divisores con `%`, acumula la suma y compara al final con `===`.
+
+*Ejercicio 14: Decimal a Binario* 🤖
+_Enunciado:_ Convierte un número decimal a texto binario a base de pura matemática.
+_Requerimientos:_ Usa `while`, saca el bit con `%`, reduce el número con división y `Math.floor()`, y concatena strings al revés.
+
+*Ejercicio 15: Triángulo de Números* 📐
+_Enunciado:_ Imprime un triángulo donde la fila 1 tiene "1", la fila 2 tiene "1 2", etc.
+_Requerimientos:_ Usa bucles `for` anidados donde el límite del interno dependa del externo.
+
+¡Lógica pura, sin distracciones visuales! 💪 La base de un buen programador está en dominar estas estructuras. Si se trancan en alguno, me avisan por aquí. ¡Éxito en la terminal! 🏁✨
+
+¡Hola a todos! 🎨📐 ¿Listos para darle estilo y estructura a la web? Hoy dejamos la lógica pesada a un lado y nos metemos de lleno en el diseño visual con estos 15 ejercicios de *HTML y CSS* 🌐✨. ¡Vamos a construir interfaces increíbles! 🚀
+
+🟢 *NIVEL FÁCIL* (Básicos y Estructura) 🟢
+
+*Ejercicio 1: Estructura Semántica* 📄
+_Enunciado:_ Crea un artículo de blog usando la estructura correcta y dale estilos tipográficos.
+_Requerimientos:_ Usa etiquetas HTML5 (`<header>`, `<main>`, `<article>`) y vincula un CSS externo para la fuente y color.
+
+*Ejercicio 2: Listas Personalizadas* 📝
+_Enunciado:_ Crea una lista de receta (ingredientes y pasos).
+_Requerimientos:_ Usa `<ol>` y `<ul>`. Cambia el estilo de los puntos con `list-style-type: square` en CSS.
+
+*Ejercicio 3: Galería Básica* 🖼️
+_Enunciado:_ Fila de tres imágenes que sean enlaces.
+_Requerimientos:_ Usa `<a>` y `<img>`. Fija el `width` y usa `:hover` para bajar la opacidad al pasar el ratón.
+
+*Ejercicio 4: Tablas de Datos* 📊
+_Enunciado:_ Maqueta el horario de clases de un alumno.
+_Requerimientos:_ Usa las etiquetas de tabla completas. En CSS aplica `border-collapse` y fondos cebra con `nth-child(even)`.
+
+*Ejercicio 5: Formulario de Contacto* ✉️
+_Enunciado:_ Estructura visual de un formulario.
+_Requerimientos:_ Usa `<form>`, `<input>`, `<textarea>`, `<label>`. En CSS, dales ancho del 100% y usa márgenes inferiores.
+
+
+🟡 *NIVEL INTERMEDIO* (Maquetación y Posicionamiento) 🟡
+
+*Ejercicio 6: Modelo de Caja (Box Model)* 📦
+_Enunciado:_ Demuestra cómo interactúan margen, borde y relleno en dos cajas.
+_Requerimientos:_ Usa `div`s, aplica `box-sizing: border-box`, ajusta `width`, `padding`, `border` y `margin`.
+
+*Ejercicio 7: Navbar con Flexbox* 🧭
+_Enunciado:_ Barra de navegación horizontal.
+_Requerimientos:_ Usa listas, aplica `display: flex`, y controla la alineación con `justify-content` y `align-items`.
+
+*Ejercicio 8: Tarjeta de Usuario (Card)* 👤
+_Enunciado:_ Construye un perfil con foto redonda, nombre y botón.
+_Requerimientos:_ Usa `box-shadow`, `border-radius`. Para la imagen aplica `border-radius: 50%` y `object-fit: cover`.
+
+*Ejercicio 9: Posicionamiento Absoluto* 📌
+_Enunciado:_ Pon un aviso de "¡Nuevo!" en la esquina de una imagen.
+_Requerimientos:_ Contenedor con `position: relative`, y el aviso interior con `position: absolute`, ajustando `top` y `right`.
+
+*Ejercicio 10: Feedback en Formularios* ✨
+_Enunciado:_ Mejora el formulario del Ej 5 interactuando con las pseudo-clases.
+_Requerimientos:_ Usa `:focus` en inputs para resaltar bordes, y `:disabled` en el botón para volverlo gris con cursor de "no permitido".
+
+
+🔴 *NIVEL AVANZADO* (Layouts Modernos y Efectos) 🔴
+
+*Ejercicio 11: Layout con CSS Grid* 📏
+_Enunciado:_ Crea una estructura clásica (Cabecera, Menú lateral, Contenido, Footer).
+_Requerimientos:_ Usa `display: grid` y asigna zonas usando `grid-template-areas` o líneas.
+
+*Ejercicio 12: Diseño Responsivo (Mobile First)* 📱
+_Enunciado:_ Adapta el layout anterior (Grid) para móviles.
+_Requerimientos:_ Usa `@media screen and (max-width: 768px)` y cambia el Grid a una sola columna (1fr) apilada.
+
+*Ejercicio 13: Menú Dropdown CSS Puro* 📂
+_Enunciado:_ Submenú oculto que se despliega al pasar el ratón.
+_Requerimientos:_ Listas anidadas con `display: none` por defecto y cambian a `block` usando el selector `:hover` en el contenedor padre.
+
+*Ejercicio 14: Animación de "Loading"* ⏳
+_Enunciado:_ Crea el típico circulito de carga giratorio infinito.
+_Requerimientos:_ Usa `@keyframes` de 0 a 360 grados (`transform: rotate`) y aplícalo con la propiedad `animation` y valor `infinite`.
+
+*Ejercicio 15: Modo Oscuro con Variables CSS* 🌙
+_Enunciado:_ Implementa variables para colores y permite cambiar a tema oscuro.
+_Requerimientos:_ Declara variables en `:root` con `var()`. Crea una media query `@media (prefers-color-scheme: dark)` que reemplace los colores de esas variables.
+
+¡Recuerden probar los cambios constantemente en el navegador e inspeccionar elementos! 🛠️ Cualquier bloque técnico, me escriben. ¡Mucho éxito maquetando! 🏁💻
+
+¡Hola equipo! 🚀💻 Hoy nos ponemos el sombrero de Administradores de Bases de Datos. Les traigo 10 ejercicios puros de *MySQL* 🐬 para dominar la manipulación de datos y estructuras. Desde la creación de tablas hasta el cruce de información avanzado. ¡Vamos a consultar! 🔥
+
+🟢 *NIVEL FÁCIL* (DDL y DML Básico) 🟢
+
+*Ejercicio 1: Creación de Tabla Principal* 🏗️
+_Enunciado:_ Crea la tabla `Empleados` para registrar al personal.
+_Requerimientos:_ Usa `CREATE TABLE`, define `id_empleado` como `PRIMARY KEY` y `AUTO_INCREMENT`, y añade nombre, salario y fecha.
+
+*Ejercicio 2: Inserción de Registros* ✍️
+_Enunciado:_ Ingresa tres empleados nuevos a la base de datos.
+_Requerimientos:_ Usa `INSERT INTO` especificando columnas e insertando varios valores en una sola línea.
+
+*Ejercicio 3: Consulta Básica y Filtrado* 🔍
+_Enunciado:_ Busca nombre y salario de los que ganan más de 3000.
+_Requerimientos:_ Usa `SELECT` de columnas específicas y filtra con un `WHERE` y `>`.
+
+
+🟡 *NIVEL INTERMEDIO* (Mantenimiento y Reportes) 🟡
+
+*Ejercicio 4: Actualización Salarial* 💰
+_Enunciado:_ Súbele el sueldo un 10% a un empleado específico por su ID.
+_Requerimientos:_ Usa `UPDATE` con `SET` y ¡no olvides el `WHERE` para no aumentarle a todos por error! ⚠️
+
+*Ejercicio 5: Eliminación de Registros* 🗑️
+_Enunciado:_ Borra a los empleados contratados antes del 2020.
+_Requerimientos:_ Usa `DELETE FROM` y filtra fechas con `WHERE` usando el formato 'YYYY-MM-DD'.
+
+*Ejercicio 6: Top 5 Mejores Pagados* 🏆
+_Enunciado:_ Muestra a los 5 empleados con mayores salarios.
+_Requerimientos:_ Usa `SELECT`, ordena de mayor a menor con `ORDER BY ... DESC` y corta los resultados con `LIMIT 5`.
+
+
+🔴 *NIVEL AVANZADO* (Relaciones y Agrupaciones) 🔴
+
+*Ejercicio 7: Integridad Referencial* 🔗
+_Enunciado:_ Crea la tabla `Departamentos` y relaciónala con los empleados.
+_Requerimientos:_ Usa `CREATE TABLE` para los departamentos, y luego `ALTER TABLE` en empleados para agregar un `FOREIGN KEY`.
+
+*Ejercicio 8: Consultas Multitabla* 🤝
+_Enunciado:_ Genera una lista que muestre: "Nombre Empleado - Nombre Departamento".
+_Requerimientos:_ Cruza ambas tablas usando `INNER JOIN` y establece la condición con la cláusula `ON`.
+
+*Ejercicio 9: Totales por Departamento* 📊
+_Enunciado:_ Calcula cuánto gasta la empresa en salarios y cuántos empleados hay por cada departamento.
+_Requerimientos:_ Usa funciones de agregación como `SUM()` y `COUNT()`, y agrupa los datos con `GROUP BY`.
+
+*Ejercicio 10: Filtrado de Grupos* 🎯
+_Enunciado:_ Muestra solo los departamentos cuyo salario promedio supere los 4000.
+_Requerimientos:_ Usa `AVG()`, agrupa con `GROUP BY` y filtra el resultado agregado usando la poderosa cláusula `HAVING`.
+
+¡Recuerden que un `DELETE` o un `UPDATE` sin `WHERE` es el mayor miedo de un programador! 💀😂 Prueben sus sentencias paso a paso. ¡Éxito estructurando esos datos! 🏁✨

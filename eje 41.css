@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+.grid-layout {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "aside main"
+        "footer footer";
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 80px 400px 60px;
+    gap: 10px;
+    background-color: aqua;
+}
+header {grid-area: header; background-color: aquamarine;}
+aside {grid-area: aside;background-color: rgb(203, 241, 229);}
+main {grid-area: main;background-color: rgb(162, 211, 255);}
+footer {grid-area: footer;background-color: rgb(21, 44, 63);}
