@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FONT-AWESOME ===============-->
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Portfolio website treto</title>
+  </head>
+  <body>
+    <!--=============== MAIN ===============-->
+    <main class="main-frame">
+      <!--=============== HEADER ===============-->
+      <header class="header">
+        <nav class="nav">
+          <a href="index.html" class="nav-logo center">Treto</a>
+          <div class="nav-menu center">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="skills.html" class="nav-link">Skills</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="services.html" class="nav-link">Services</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="portfolio.html" class="nav-link">Portfolio</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="testimonials.html" class="nav-link">Testimonials</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="nav-social center">
+            <a href="https://www.facebook.com/" target="_blank" class="nav-social-link">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+
+            <a href="https://www.instagram.com/" target="_blank" class="nav-social-link">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="https://linkedin.com/" target="_blank" class="nav-social-link">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <a href="https://youtube.com/" target="_blank" class="nav-social-link">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </div>
+
+          <div class="nav-toggle">
+          <i class="fa-solid fa-bars"></i>
+          </div>
+        </nav>
+      </header>
+
+      <!--=============== PORTFOLIO ===============-->
+      <section class="contact container section">
+        <span class="section-subtitle">Contact <span>Me</span></span>
+        <h2 class="section-title">Let's Get you an Estimate</h2>
+        <div class="contact-container grid">
+          <div class="contact-content grid">
+            <article class="contact-card">
+              <h3 class="contact-title">Email</h3>
+
+              <p class="contact-data">
+                <a href="mailto:dianebertistroconis@gmail.com">dianebertistroconis@gmail.com</a>
+                <br />
+                <a href="mailto:randerpalchoa@gmail.com">randerpalchoa@gmail.com</a>
+              </p>
+            </article>
+
+            <article class="contact-card">
+              <h3 class="contact-title">Phone</h3>
+
+              <p class="contact-data">
+                <a href="tel:+584122361536">+58 412 236 1536</a>
+                <br />
+                <a href="tel:+584122361536">+58 412 236 1536</a>
+              </p>
+            </article>
+          </div>
+
+          <form action="" class="contact-form" id="contact-form">
+            <div class="contact-group grid">
+              <div class="contact-div">
+                <label for="" class="contact-tag">Your Full Name <b>*</b></label>
+                <input type="text" class="contact-input" name="name" id="contact-name">
+              </div>
+
+              <div class="contact-div">
+                <label for="" class="contact-tag">Your Email Address <b>*</b></label>
+                <input type="email" class="contact-input" name="email" id="contact-email">
+              </div>
+            </div>
+
+            <div class="contact-div contact-area">
+                <label for="" class="contact-tag">Your Message <b>*</b></label>
+                <textarea class="contact-input"name="message" id="contact-message"></textarea>
+              </div>
+
+              <button type="submit" class="button button-first contact-button">Send Message</button>
+
+              <p class="message" id="message"></p>
+          </form>
+        </div>
+
+
+
+      </section>
+
+      <!--=============== FOOTER ===============-->
+      <footer class="footer">
+        <div class="footer-copy center">
+          <p class="footer-copy-text">&copy; Copyright <span>Treto</span>. All rights reserved</p>
+        </div>
+      </footer>
+    </main>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+    </script>
+
+    <script>
+      const contactForm = document.getElementsById('contact-form')
+      contactName = document.getElementsById('contact-name')
+      contactEmail = document.getElementsById('contact-email')
+      contactMessage = document.getElementsById('contact-message')
+      message = document.getElementsById('message')
+
+      const sendEmail = (e) => {
+        e.preventDefault();
+
+        if(contactName.value === '' ||
+         contactEmail.value === '' ||
+          contactMessage.valie === '' 
+        )
+          {
+            message.classList.add('color-red')
+
+            message.textContent = 'Write all the input fields.';
+
+            setTimeout(() => {
+              message.textContent = ''
+            }, 3000)
+          }
+      };
+
+      contactForm.addEventListener('subtmit', sendEmail)
+    </script>
+  </body>
+</html>
